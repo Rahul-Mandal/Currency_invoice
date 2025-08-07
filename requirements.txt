@@ -1,0 +1,8 @@
+fastapi
+httpx
+pycountry
+uvicorn
+python-dotenv
+fpdf2
+asyncio
+pydantic-settings
