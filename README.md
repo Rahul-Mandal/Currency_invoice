@@ -27,7 +27,10 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-## Docker create image and run container
+## Launch Application
+- http://localhost:8000/docs#
+
+## Docker create image and run container 
 ```bash
 docker build -t invoice-service .
 docker run -d -p 8001:8001 --env-file .env invoice-service
